@@ -31,8 +31,8 @@ class ChordProgressionPlayer:
             prompt += f" in the style of {self.artist_to_emulate}"
 
         prompt += f" in the key of {self.key}{'m' if self.is_minor else ''}. "
-        prompt += "Use a mix of Roman numeral notation and chord names. "
-        prompt += "Respond with only the chord progression, with chords separated by dashes. For example: I-Cmaj7-F-G7"
+        prompt += "Use only chord names."
+        prompt += "Respond with only the chord progression, with chords in root + quality, separated by dashes. For example: G-Cmaj7-F-G7"
 
         if self.current_progression:
             previous_progression = '-'.join(self.format_chord(chord) for chord in self.current_progression)
@@ -41,6 +41,8 @@ class ChordProgressionPlayer:
         logging.info(f"Sending prompt to Ollama: {prompt}")
 
         progression_string = self.ollama_api.generate_progression_with_ollama(prompt)
+        print(progression_string)
+        
         if progression_string:
             chord_tokens = tokenize_progression(progression_string)
             cleaned_progression = [format_chord_token(token) for token in chord_tokens if token['type'] != ChordType.INVALID]
