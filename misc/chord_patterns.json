@@ -1,0 +1,298 @@
+{
+    "chord_patterns": [
+      {
+        "name": "Basic Pattern",
+        "pattern": [0, null, 2, 1],
+        "melody1": [0, 2, 4, 3],
+        "melody2": [4, 2, 0, 1]
+      },
+      {
+        "name": "Rising Sun",
+        "pattern": [0, 1, 2, 3],
+        "melody1": [0, 1, 3, 5],
+        "melody2": [5, 3, 1, 0]
+      },
+      {
+        "name": "Falling Star",
+        "pattern": [3, 2, 1, 0],
+        "melody1": [7, 5, 3, 0],
+        "melody2": [0, 3, 5, 7]
+      },
+      {
+        "name": "Zig Zag",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [6, 2, 4, 0]
+      },
+      {
+        "name": "Mountain Peak",
+        "pattern": [0, 1, 3, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Valley Low",
+        "pattern": [3, 1, 0, 1],
+        "melody1": [6, 4, 2, 4],
+        "melody2": [8, 6, 4, 6]
+      },
+      {
+        "name": "Staircase",
+        "pattern": [0, 1, 1, 2],
+        "melody1": [0, 2, 2, 4],
+        "melody2": [4, 6, 6, 8]
+      },
+      {
+        "name": "Waterfall",
+        "pattern": [3, 3, 2, 0],
+        "melody1": [7, 7, 5, 3],
+        "melody2": [11, 11, 9, 7]
+      },
+      {
+        "name": "Pendulum",
+        "pattern": [0, 2, 0, 2],
+        "melody1": [0, 4, 0, 4],
+        "melody2": [4, 8, 4, 8]
+      },
+      {
+        "name": "Heartbeat",
+        "pattern": [0, null, 0, null],
+        "melody1": [0, 2, 0, 2],
+        "melody2": [4, 6, 4, 6]
+      },
+      {
+        "name": "Waves",
+        "pattern": [0, 1, 2, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Syncopated Rhythm",
+        "pattern": [0, null, 2, null],
+        "melody1": [0, 3, 2, 5],
+        "melody2": [4, 7, 6, 9]
+      },
+      {
+        "name": "Choppy Waters",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Gentle Breeze",
+        "pattern": [0, 1, 0, 2],
+        "melody1": [0, 2, 1, 3],
+        "melody2": [4, 6, 5, 7]
+      },
+      {
+        "name": "Thunderstorm",
+        "pattern": [3, null, 1, null],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Sunrise",
+        "pattern": [0, 0, 1, 2],
+        "melody1": [0, 1, 2, 4],
+        "melody2": [4, 5, 6, 8]
+      },
+      {
+        "name": "Sunset",
+        "pattern": [2, 1, 0, 0],
+        "melody1": [4, 2, 1, 0],
+        "melody2": [8, 6, 5, 4]
+      },
+      {
+        "name": "Moonlight",
+        "pattern": [0, null, 1, null],
+        "melody1": [0, 2, 1, 3],
+        "melody2": [4, 6, 5, 7]
+      },
+      {
+        "name": "Starry Night",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Ocean Depths",
+        "pattern": [3, 2, 1, 0],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Mountain Range",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Desert Winds",
+        "pattern": [0, null, 2, null],
+        "melody1": [0, 3, 2, 5],
+        "melody2": [4, 7, 6, 9]
+      },
+      {
+        "name": "Rainforest",
+        "pattern": [0, 1, 2, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Arctic Tundra",
+        "pattern": [0, 0, 1, 0],
+        "melody1": [0, 1, 2, 1],
+        "melody2": [4, 5, 6, 5]
+      },
+      {
+        "name": "Volcanic Eruption",
+        "pattern": [3, null, 1, null],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Glacier Movement",
+        "pattern": [0, 0, 1, 1],
+        "melody1": [0, 1, 2, 3],
+        "melody2": [4, 5, 6, 7]
+      },
+      {
+        "name": "Earthquake",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Tornado",
+        "pattern": [3, 2, 1, 0],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Calm Before Storm",
+        "pattern": [0, 0, 1, 1],
+        "melody1": [0, 1, 2, 3],
+        "melody2": [4, 5, 6, 7]
+      },
+      {
+        "name": "Avalanche",
+        "pattern": [3, 3, 2, 0],
+        "melody1": [7, 7, 5, 3],
+        "melody2": [11, 11, 9, 7]
+      },
+      {
+        "name": "Gentle Stream",
+        "pattern": [0, 1, 0, 2],
+        "melody1": [0, 2, 1, 3],
+        "melody2": [4, 6, 5, 7]
+      },
+      {
+        "name": "Rushing River",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Tranquil Lake",
+        "pattern": [0, null, 1, null],
+        "melody1": [0, 2, 1, 3],
+        "melody2": [4, 6, 5, 7]
+      },
+      {
+        "name": "Autumn Leaves",
+        "pattern": [2, 1, 0, 1],
+        "melody1": [4, 2, 0, 2],
+        "melody2": [8, 6, 4, 6]
+      },
+      {
+        "name": "Spring Bloom",
+        "pattern": [0, 1, 2, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Summer Heat",
+        "pattern": [0, 2, 0, 2],
+        "melody1": [0, 4, 0, 4],
+        "melody2": [4, 8, 4, 8]
+      },
+      {
+        "name": "Winter Frost",
+        "pattern": [0, 0, 1, 0],
+        "melody1": [0, 1, 2, 1],
+        "melody2": [4, 5, 6, 5]
+      },
+      {
+        "name": "City Lights",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Country Road",
+        "pattern": [0, 1, 2, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Urban Jungle",
+        "pattern": [0, null, 2, null],
+        "melody1": [0, 3, 2, 5],
+        "melody2": [4, 7, 6, 9]
+      },
+      {
+        "name": "Suburban Calm",
+        "pattern": [0, 1, 0, 2],
+        "melody1": [0, 2, 1, 3],
+        "melody2": [4, 6, 5, 7]
+      },
+      {
+        "name": "Industrial Rhythm",
+        "pattern": [0, 2, 0, 2],
+        "melody1": [0, 4, 0, 4],
+        "melody2": [4, 8, 4, 8]
+      },
+      {
+        "name": "Pastoral Scene",
+        "pattern": [0, 1, 2, 1],
+        "melody1": [0, 2, 4, 2],
+        "melody2": [4, 6, 8, 6]
+      },
+      {
+        "name": "Cosmic Dance",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      },
+      {
+        "name": "Galactic Swirl",
+        "pattern": [3, 2, 1, 0],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Nebula Formation",
+        "pattern": [0, null, 2, null],
+        "melody1": [0, 3, 2, 5],
+        "melody2": [4, 7, 6, 9]
+      },
+      {
+        "name": "Solar Flare",
+        "pattern": [3, null, 1, null],
+        "melody1": [7, 5, 3, 1],
+        "melody2": [11, 9, 7, 5]
+      },
+      {
+        "name": "Lunar Phases",
+        "pattern": [0, 1, 2, 3],
+        "melody1": [0, 2, 4, 6],
+        "melody2": [4, 6, 8, 10]
+      },
+      {
+        "name": "Asteroid Belt",
+        "pattern": [0, 2, 1, 3],
+        "melody1": [0, 4, 2, 6],
+        "melody2": [4, 8, 6, 10]
+      }
+    ]
+  }
