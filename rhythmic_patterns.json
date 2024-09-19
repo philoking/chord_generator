@@ -1,0 +1,29 @@
+{
+    "patterns": [
+        {"name": "straight_rhythm", "pattern": [[4], [4], [4], [4]]},
+        {"name": "half_time_rhythm", "pattern": [[2], [2], [2], [2]]},
+        {"name": "syncopated_rhythm", "pattern": [[3], ["rest"], [3], ["rest"]]},
+        {"name": "quarter_note_rhythm", "pattern": [[1], [1], [1], [1], ["rest", 4]]},
+        {"name": "dotted_rhythm", "pattern": [[3], ["rest"], [3], ["rest"]]},
+        {"name": "staccato_rhythm", "pattern": [[1], ["rest"], [1], ["rest"], [1], ["rest"], [1], ["rest"]]},
+        {"name": "triplet_rhythm", "pattern": [[2], [2], [2], [2], [2], [2]]},
+        {"name": "eighth_note_rhythm", "pattern": [[1], [1], [1], [1], [1], [1], [1], [1]]},
+        {"name": "off_beat_rhythm", "pattern": [[1, "rest"], [1, "rest"], [1, "rest"], [1, "rest"]]},
+        {"name": "swing_rhythm", "pattern": [[3], ["rest"], [3], ["rest"]]},
+        {"name": "syncopation_with_rest", "pattern": [[3], ["rest"], [2], [2], ["rest"]]},
+        {"name": "long_short_rhythm", "pattern": [[3], ["rest"], [2], [2]]},
+        {"name": "short_long_rhythm", "pattern": [["rest"], [3], [2], [2]]},
+        {"name": "double_time_rhythm", "pattern": [[2], [2], [2], [2], [2], [2], [2], [2]]},
+        {"name": "simple_waltz_rhythm", "pattern": [[3], [3], [3]]},
+        {"name": "complex_waltz_rhythm", "pattern": [[2], ["rest"], [2], ["rest"], [2], ["rest"]]},
+        {"name": "march_rhythm", "pattern": [[2], [2], ["rest"], [2], [2]]},
+        {"name": "latin_rhythm", "pattern": [[2], ["rest"], [1], ["rest"], [2]]},
+        {"name": "rock_rhythm", "pattern": [[4], ["rest"], [2], [2], [4]]},
+        {"name": "blues_rhythm", "pattern": [[3], ["rest"], [3], ["rest"]]},
+        {"name": "jazz_rhythm", "pattern": [[2], [2], ["rest"], [2], [2], [2]]},
+        {"name": "funk_rhythm", "pattern": [[1], ["rest"], [1], ["rest"], [1], ["rest"], [1], ["rest"]]},
+        {"name": "reggae_rhythm", "pattern": [[2], ["rest"], [2], [2]]},
+        {"name": "bossa_nova_rhythm", "pattern": [[3], ["rest"], [3], ["rest"], [2], [4]]},
+        {"name": "samba_rhythm", "pattern": [[2], ["rest"], [1], ["rest"], [2], ["rest"], [1], ["rest"]]}
+    ]
+}
