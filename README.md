@@ -1,4 +1,4 @@
-This beginning of a modular AI copilot app.
+The beginning of a modular AI copilot app.
 
 ![Alt text](screenshot.png)
 
