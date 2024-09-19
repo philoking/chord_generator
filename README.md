@@ -1,5 +1,7 @@
 This beginning of a modular AI copilot app.
 
+![Alt text](screenshot.png)
+
 Features:
 - Select key and tempo
 - Select artist inspiration
